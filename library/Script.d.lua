@@ -23,9 +23,8 @@ function Script:EnableUpdate(enabled) end
 
 ---Gets the value of a Script Variable defined in the script's mapping by name.
 ---- Returns nil if a Script Variable with the specified name does not exist.
----@generic T : ServerDataType
 ---@param varName string # The name of the Script Variable.
----@return T? value # The value of the Script Variable.
+---@return ServerDataType? value # The value of the Script Variable.
 function Script:GetParam(varName) end
 
 ---Calls a global function by name.
